@@ -1,5 +1,7 @@
 library easy_logger;
 
+import 'package:flutter/material.dart';
+
 class Logger {
   static LogMode _logMode = LogMode.debug;
 
@@ -9,7 +11,7 @@ class Logger {
 
   static void log(dynamic data, {StackTrace? stackTrace}) {
     if (_logMode == LogMode.debug) {
-      print("$data$stackTrace");
+      debugPrint("$data$stackTrace");
     }
   }
 }

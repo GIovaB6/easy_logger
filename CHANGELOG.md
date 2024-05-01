@@ -1,3 +1,7 @@
+## 0.0.3
+
+* DebugPrint.
+
 ## 0.0.1
 
-* TODO: Describe initial release.
+* initial release.
